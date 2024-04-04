@@ -19,9 +19,11 @@ void input()
  cout << "\n--------------------------";
  cout << "enter elements array";
  cout << "----------------------------";
+
  for (i=0;i<n;i++)
  {
-    
+    cout << "<" << (i+1) << ">"
+    cin >> arr[i]
  }
 
 }
