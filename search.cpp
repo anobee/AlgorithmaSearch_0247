@@ -47,7 +47,8 @@ void LinearSearch ()
             ctr++;
             if (arr[i] == item)
             {
-                cout << "\n" << item << 
+                cout << "\n" << item << "found at positif ";
+                break ;
             }
         }
 
