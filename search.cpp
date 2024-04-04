@@ -19,6 +19,9 @@ void input()
  cout << "\n--------------------------";
  cout << "enter elements array";
  cout << "----------------------------";
-
+ for (i=0;i<n;i++)
+ {
+    
+ }
 
 }
