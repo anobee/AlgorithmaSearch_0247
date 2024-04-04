@@ -16,6 +16,9 @@ void input()
         else 
         cout << "\narray should have minimum 1 and ";
     }
+ cout << "\n--------------------------";
+ cout << "enter elements array";
+ cout << "----------------------------";
 
 
 }
