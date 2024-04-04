@@ -1,4 +1,4 @@
-#include <iostrean>
+#include <iostream>
 using namespace std;
 
 int arr [20];
@@ -9,16 +9,16 @@ void input()
 {
     while (true)
     {
-        cout <<  "enter the number of elements in the array";
+        cout << "Enter the number of elements in the array: ";
         cin >> n;
-        if ((n > 0) && (n <= 20));
+        if ((n > 0) && (n <= 20))
             break;
-        else 
-        cout << "\narray should have minimum 1 and ";
+        else
+            cout << "\narray should have minimum 1 and maximum 20 elements";
     }
  cout << "\n--------------------------";
- cout << "enter elements array";
- cout << "----------------------------";
+ cout << "\nenter elements array";
+ cout << "\n----------------------------" << endl;
 
  for (i=0;i<n;i++)
  {
@@ -31,7 +31,7 @@ void input()
 void LinearSearch ()
 {
     char ch;
-    char ctr; //number of comparisons
+    int ctr; //number of comparisons
     int item;
 
     do 
@@ -47,13 +47,13 @@ void LinearSearch ()
             ctr++;
             if (arr[i] == item)
             {
-                cout << "\n" << item << "found at position ";
+                cout << "\n" << item << " found at position " << (i+1) << endl;
                 break ;
             }
             i++; //
         }
 
-        if (i==n)
+        if (i == n)
             cout << "\n" << item << "not found in the array\n";
             cout << "\nNumber of comparisons :" << ctr << endl;
 
@@ -75,5 +75,5 @@ int main ()
 {
     input ();
     LinearSearch();
-    display ():
+    display ();
 }
