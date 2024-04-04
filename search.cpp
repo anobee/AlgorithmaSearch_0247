@@ -47,7 +47,7 @@ void LinearSearch ()
             ctr++;
             if (arr[i] == item)
             {
-                cout <<
+                cout << "\n" << item << 
             }
         }
 
